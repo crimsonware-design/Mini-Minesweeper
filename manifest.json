@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Mini Minesweeper",
+    "version": "1.0.0",
+    "description": "A tiny little minesweeper to play anywhere",
+    "icons": {
+      "128": "icon-128.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Mini Minesweeper"
+    }
+  }

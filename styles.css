@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    width:420px;
+    height:420px;
+}
+body{
+    height:420px;
+    font-family: Arial, Helvetica, sans-serif;
+    width:420px;
+}
+.square{
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.odd:hover{
+    background-color: rgb(142, 172, 62);
+}
+.odd{
+    background-color: rgba(169,202,75);
+}
+.even:hover{
+    background-color: rgb(147, 180, 63);
+}
+.even{
+    background-color: rgba(160,196,69,255);
+}
+.revealed.odd{
+    background-color: rgba(230,196,163,255)
+}
+.revealed.even{
+    background-color: rgba(214,187,155,255);
+}
+.flagged{
+    background-image: url("flag.png");
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-main,.container{
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+}
+
+.input{
+    width:fit-content;
+    background-color: #111;
+}
+.retry{
+    position:absolute;
+    top:50%;
+    left:45%;
+    border:none;
+    border-radius: 0px;
+    padding:5px;
+}
+.hidden{
+    display: none;
+}
