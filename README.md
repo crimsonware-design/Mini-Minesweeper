@@ -1,8 +1,7 @@
 ### Mini Minesweeper
 # Play Minesweeper anywhere
 
-I can't upload it to the chrome extensions page so if you want to use this you will have to manually install it
-
+This hasn't been uploaded to chrome extensions so you have to install it manually
 # Install instructions
 1. Go to the top left corner of your browser and find the menu
 2. Click extensions
