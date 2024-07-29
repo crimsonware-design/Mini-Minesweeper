@@ -15,7 +15,7 @@ function init() {
             rowHTML += `<div class="${tileClass} square tile${j}"></div>`;
         }
         rowHTML += '</div>';
-        container.insertAdjacentHTML('beforebegin', rowHTML);
+        container.insertAdjacentHTML('afterbegin', rowHTML);
     }
 }
 
